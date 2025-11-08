@@ -40,3 +40,11 @@ Powered by **Google Gemini API** and a **Spring Boot backend**.
 
 ## ⚙️ How It Works
 
+1️⃣ **Frontend or Extension** sends the email text + tone → to backend  
+2️⃣ **Backend** creates a structured prompt and requests Gemini API  
+3️⃣ **Gemini API** returns a context-aware reply  
+4️⃣ **Extension** inserts it directly into Gmail, or **Frontend** displays it on the page  
+
+
+
+
